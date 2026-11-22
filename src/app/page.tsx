@@ -154,7 +154,7 @@ export default async function LandingPage() {
         {/* ICT Python Programming Highlight */}
         <section className="container-main py-20">
           <div className="card-hover bg-gradient-to-r from-primary-600 via-primary-700 to-secondary-700 p-8 md:p-12 rounded-3xl text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fillRule="evenodd"%3E%3Cg fill="%23ffffff" fillOpacity="0.03"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 36v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 6V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50" />
+            <div className="absolute inset-0 opacity-20" />
             <div className="relative z-10 max-w-3xl">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-sm font-medium mb-6">
                 <span className="relative flex h-2 w-2">

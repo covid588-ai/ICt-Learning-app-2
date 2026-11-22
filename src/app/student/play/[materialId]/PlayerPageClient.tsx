@@ -670,7 +670,7 @@ export default function PlayerPageClient({
                   <h2 className="text-lg font-semibold">{material.title}</h2>
                   <p className="text-gray-400 text-sm mt-1">
                     {material.topic.chapter.subject.title} › {material.topic.chapter.title} › {material.topic.title}
-                    {material.order && <span className="mx-2">•</span> Lecture {material.order}}
+                    {material.order ? <><span className="mx-2">•</span> Lecture {material.order}</> : null}
                   </p>
                 </div>
 

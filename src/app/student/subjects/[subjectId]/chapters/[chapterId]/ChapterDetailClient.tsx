@@ -51,7 +51,7 @@ export default function ChapterDetailClient({
                 <span>{topics.length} topics</span>
                 <span>•</span>
                 <span>{totalMaterials} materials</span>
-              </span>
+              </div>
               <div className="w-32 sm:w-48">
                 <div className="progress-bar h-2">
                   <div className="progress-fill" style={{ width: `${chapterProgress}%` }} />
