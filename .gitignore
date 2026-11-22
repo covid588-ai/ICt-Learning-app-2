@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.production
+*.jks
+*.keystore
+android/.gradle/
+android/build/
+android/app/build/
